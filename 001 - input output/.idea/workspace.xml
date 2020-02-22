@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ed05666-0d22-40b7-bb37-2bb9bf4d4ef1" name="Default Changelist" comment="" />
+    <list default="true" id="9ed05666-0d22-40b7-bb37-2bb9bf4d4ef1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XPbqMEiOi1QGok5AxDorv89Z6d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,6 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580950866525</updated>
       <workItem from="1580950870388" duration="40000" />
+      <workItem from="1581216066720" duration="47000" />
+      <workItem from="1581258313534" duration="22000" />
     </task>
     <servers />
   </component>
@@ -68,9 +76,13 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state width="1537" height="220" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1580950909379" />
-    <state x="465" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1580950871567">
+    <state x="465" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1581258313559">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="465" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1580950871567" />
+    <state x="465" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1581258313559" />
+    <state x="209" y="38" key="new project wizard" timestamp="1581216108139">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="209" y="38" key="new project wizard/0.0.1536.832@0.0.1536.832" timestamp="1581216108139" />
   </component>
 </project>

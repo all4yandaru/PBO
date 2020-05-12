@@ -1,17 +1,19 @@
 import java.io.InputStream;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        while (true){
+        boolean loop = true;
+        while (loop){
             try {
                 int pilih;
 
                 System.out.println("\nMENU FORM PENDAFTARAN");
                 System.out.println("1. Asisten Laboratorium");
-                System.out.println("1. Admin Laboratorium");
+                System.out.println("2. Admin Laboratorium");
                 System.out.print("Pilih Jenis Form : ");
 
                 pilih = input.nextInt();
@@ -28,8 +30,9 @@ public class Main {
                         System.out.println("Opsi tidak ada");
                 }
             }
-            catch (NumberFormatException e){
+            catch (InputMismatchException e){
                 System.err.println(e.getMessage() + ", Opsi tidak ada");
+                loop = false;
             }
         }
 
@@ -56,8 +59,8 @@ public class Main {
                 Pendaftaran mahasiswa = new Pendaftaran(nama,nim,tulis,coding,wawancara,micro,"Aslab");
                 mahasiswa.hasil();
             }
-        } catch (NumberFormatException e){
-            System.out.println(e.getMessage());
+        } catch (InputMismatchException e){
+            System.err.println(e.getMessage() + ", tidak boleh huruf\n");
         }
     }
 
@@ -83,8 +86,8 @@ public class Main {
                 Pendaftaran mahasiswa = new Pendaftaran(nama,nim,tulis,coding,wawancara,jaringan,"Admin");
                 mahasiswa.hasil();
             }
-        } catch (NumberFormatException e){
-            System.out.println(e.getMessage());
+        } catch (InputMismatchException e){
+            System.err.println(e.getMessage() + ", tidak boleh huruf\n");
         }
     }
 }
